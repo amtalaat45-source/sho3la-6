@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Surfaces: white app, light-grey tonal fills -->
+    <color name="bg">#FFFFFF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_high">#F3F3F6</color>
+    <color name="surface_highest">#E4E4EA</color>
+    <color name="outline">#E6E6EB</color>
+    <color name="track_off">#C9C9D2</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1B1B20</color>
+    <color name="text_secondary">#5C5C68</color>
+    <color name="text_tertiary">#767683</color>
+
+    <!-- Brand: red is the main colour (buttons, selection, progress) -->
+    <color name="accent">#D32F2F</color>
+    <color name="accent_container">#FDECEC</color>
+    <color name="on_accent">#FFFFFF</color>
+
+    <!-- Yellow: rewards (flames, level, trophies) -->
+    <color name="gold">#FFC400</color>
+    <color name="gold_container">#FFF4CC</color>
+    <color name="on_gold">#2B2100</color>
+
+    <!-- Semantic -->
+    <color name="success">#2E7D32</color>
+    <color name="success_container">#E6F4E7</color>
+    <color name="danger">#B71C1C</color>
+    <color name="danger_container">#FDECEC</color>
+    <color name="danger_stroke">#4DD32F2F</color>
+
+    <color name="ripple">#14000000</color>
+    <color name="ripple_on_accent">#33FFFFFF</color>
+    <color name="ic_launcher_background">#D32F2F</color>
+</resources>

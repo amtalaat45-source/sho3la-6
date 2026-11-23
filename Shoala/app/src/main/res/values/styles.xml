@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===================== Typography scale ===================== -->
+    <style name="Text">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- Big timer digits: light weight + tabular numbers so they never jitter -->
+    <style name="Text.Display">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:fontFeatureSettings">tnum</item>
+        <item name="android:textSize">60sp</item>
+    </style>
+
+    <style name="Text.Headline">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Text.Value">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="Text.Title">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="Text.Body">
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingMultiplier">1.15</item>
+    </style>
+
+    <style name="Text.BodySecondary">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <style name="Text.Label">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="Text.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_tertiary</item>
+        <item name="android:lineSpacingMultiplier">1.15</item>
+    </style>
+
+    <style name="Text.Section">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/accent</item>
+    </style>
+
+    <style name="Text.NavLabel">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_tertiary</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- ===================== Buttons ===================== -->
+    <style name="Button.Base" parent="Widget.AppCompat.Button">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Button.Primary" parent="Button.Base">
+        <item name="android:background">@drawable/bg_button_primary</item>
+        <item name="android:textColor">@color/on_accent</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Button.Tonal" parent="Button.Base">
+        <item name="android:background">@drawable/bg_button_tonal</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Button.Danger" parent="Button.Base">
+        <item name="android:background">@drawable/bg_button_danger</item>
+        <item name="android:textColor">@color/danger</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!-- Soft yellow action (flames) -->
+    <style name="Button.Gold" parent="Button.Base">
+        <item name="android:background">@drawable/bg_button_gold</item>
+        <item name="android:textColor">@color/on_gold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Segmented control / chips: background and colour are switched from code -->
+    <style name="Button.Segment" parent="Button.Base">
+        <item name="android:background">@drawable/bg_segment_idle</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Button.Chip" parent="Button.Base">
+        <item name="android:background">@drawable/bg_chip_idle</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- ===================== Misc ===================== -->
+    <style name="Progress.Thin" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_bar</item>
+        <item name="android:minHeight">6dp</item>
+        <item name="android:maxHeight">6dp</item>
+    </style>
+
+    <style name="Progress.Gold" parent="Progress.Thin">
+        <item name="android:progressDrawable">@drawable/progress_bar_gold</item>
+    </style>
+</resources>
